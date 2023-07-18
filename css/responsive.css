@@ -1,0 +1,38 @@
+@media screen and (max-width: 425px) {
+
+    
+    .nav-items-container,
+    .nav-container{
+        flex-direction: column;
+        height: 0%;
+    }
+    .nav-container .logo-container{
+        margin-top: 103px;
+        margin-bottom: 62px;
+    }
+    .nav-follow{
+        margin-bottom: 78px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-container .banner-content{
+        width: 0px;
+        height: 0px;
+        margin: 200px auto;
+        align-items: center;
+    }
+    .banner-container img{
+        width: 70%;
+        padding-left: 50px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        padding: 8%;
+    }
+    .card p{
+        width: 100%;
+    }
+}
