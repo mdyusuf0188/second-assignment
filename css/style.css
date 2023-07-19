@@ -183,12 +183,13 @@
 .card img {
     width: 342px;
     height: 400px;
-    margin-bottom: 24px;
+    
 }
 
 .card p {
-    width: 342px;
-    height: 60px;
+    
+    margin-top: 20px;
+    
 
 }
 
@@ -235,14 +236,14 @@
 
 /* button player section */
 
-.btn-player-container {
+/* .btn-player-container {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     padding: 10px 0px 10px 50px;
-}
+} */
 
-/* .btn-player-container{
+.btn-player-container{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -250,7 +251,7 @@
     row-gap: 20px;
     column-gap: 20px;
     
-} */
+}
 
 .icon-holder {
     display: flex;
@@ -259,6 +260,7 @@
     border-radius: 50px;
     background: #FFF;
     height: 80px;
+    border: 2px solid transparent;
 }
 
 .icon-holder img {
@@ -281,11 +283,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid #FF42A5;
+    
 }
 
 /* footer styles */
 .footer {
     background: #0B0223;
+    margin-top: 119px;
 }
 
 .footer-title {
@@ -351,13 +355,45 @@
     padding-bottom: 120px;
 
 }
+/* bonus section styles */
 
+.overlay-parent{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    gap: 10px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 20px;
+    
+}
+.overlay-parent:hover .overlay-text, .overlay-parent:hover .overlay-icon{
+    display: block;
+}
+.overlay-parent:hover{
+    
+    background-color: #534c6467;
+}
+.img-div{
+    position: relative;
+}
+.img-div:hover .img-color{
+    border: 5px solid #FF42A5;
+    border-radius: 20px;
+}
+.overlay{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.overlay-text, .overlay-icon{
+    display: none;
+}
 
-
-
-
-
-.hidden {
+.hidden{
     display: none;
 }

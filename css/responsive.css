@@ -1,6 +1,6 @@
 @media screen and (max-width: 425px) {
 
-    
+    .play-container,
     .nav-items-container,
     .nav-container{
         flex-direction: column;
@@ -34,5 +34,45 @@
     }
     .card p{
         width: 100%;
+    }
+
+    .play-container{
+        padding: 0px;
+        gap: 0px;
+    }
+    .play-img{
+        padding-top: 0px;
+    }
+    .play-big-img{     
+            width: 100%;
+            margin-bottom: 28%;
+            margin-left: 0%;
+    }
+    .play-small-img{
+       width: 50%;
+       height: 100%;
+    }
+
+
+    .btn-player-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 0px;
+        margin: 0px;
+    }
+    .icon-holder {
+        gap: 0px;
+        border: 1px solid transparent;
+    }
+    .icon-holder{
+        gap: 5px;
+    }
+    .icon-holder img {
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+    }
+    .icon h3{
+        font-size: 1rem;
     }
 }
