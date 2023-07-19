@@ -75,4 +75,9 @@
     .icon h3{
         font-size: 1rem;
     }
+
+    /* .footer-description>ul{
+        grid-template-columns: repeat(3,1fr);
+    } */
+
 }
