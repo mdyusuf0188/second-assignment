@@ -76,8 +76,12 @@
         font-size: 1rem;
     }
 
-    /* .footer-description>ul{
+    .footer-description>ul{
         grid-template-columns: repeat(3,1fr);
-    } */
+
+    }
+    .foot-icon{
+        gap: 90px;
+    }
 
 }
